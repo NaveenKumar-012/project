@@ -1,0 +1,203 @@
+*{
+    margin: 0% auto;
+    padding: 0%;
+}
+:root{
+    width: 100%;
+    background-image:linear-gradient(to top,rgba(0,0,0,0.5),rgba(0,0,0,0.5) ), url(https://img.freepik.com/free-photo/colorful-beautiful-flowers-background-blossom-floral-bouquet-decoration-garden-flowers-plant-pattern-wallpapers-greeting-cards-postcards-design-wedding-invites_90220-1105.jpg?w=2000);
+    
+    background-size: cover;
+    
+}
+.main{
+    width: 1200px;
+    height: auto;
+    
+}
+
+.navbar{
+    width: auto;
+    height: 75px;
+    color: orange;
+    float: left; 
+
+}
+.navbar h1{
+    font-size: 50px;
+
+}
+.navbar1{
+    width: 400px;
+    height: 70px;
+    float: left;
+    
+}
+ ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 25px;
+    font-size: 18px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s;
+}
+ul li a:hover{
+    color: orange;
+}
+.search{
+    width: 320px;
+    float: left;
+    margin-left: 265px;
+
+}
+.srch{
+    font-family: 'Times New Roman', Times, serif;
+    background: transparent;
+    width: 200px;
+    height: 35px;
+    border: 1px solid orange;
+    margin-top: 10px;
+    border-right: none;
+    padding: 10px;
+    font-size: 20px;
+    font: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.btn{
+    width: 100px;
+    height: 35px;
+    background-color: orange;
+    color: white;
+    border: 2px solid orange;
+    font-size: 18px ;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.contant{
+    width: 1200px;
+    height: auto;
+    float: left;
+    margin-right: 398px;
+    
+    
+}
+.contant h1{
+    font-family: Arial;
+    font-size: 70px;
+    color: rgb(114, 99, 99);
+
+}
+.contant p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(189, 167, 167);
+    float: left;
+}
+.form{
+    width: 250px;
+    height: 300px;
+    background: linear-gradient(to top,rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    position: absolute;
+    left: 870px;
+    top: 100px;
+    border-radius: 10px;
+    padding: 25px;
+
+}
+.form h2{
+    width: 220px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: orange;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+
+}
+.form input{
+    width: 250px;
+    height: 35px;
+    background: transparent;
+    border: 2px solid orange;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    color: white;
+    margin: 5px;
+    letter-spacing: 1px;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: rgb(189, 167, 167);
+}
+.btn1{
+    width: 220px;
+    height: 30px;
+    text-align: center;
+    background-color: orange;
+    border-radius: 10px;
+    border: none;
+    margin: 8px;
+    color: white;
+}
+.btn1 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+
+}
+.btn1:hover{
+    background: white;
+    color: orange;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: center;
+    margin: 10px;
+    color: rgb(189, 167, 167);
+}
+.form .link a{
+    text-decoration: none;
+    color: orange;
+}
+.form .low{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    margin-left: 40px;
+}
+.svg{
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    background-color: aliceblue;
+    border: 2px solid black;
+}
+
